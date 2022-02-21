@@ -58,6 +58,17 @@ header {
 					top: 0;
 				}
 			}
+
+			@media only screen and (max-width: 500px) {
+				padding: 3rem;
+				.h1 {
+					font-size: 7rem;
+				}
+
+				.h2 {
+					font-size: 5rem;
+				}
+			}
 		}
 
 		.overlay-image {
