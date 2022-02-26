@@ -10,13 +10,7 @@
 	background-repeat: no-repeat;
 
 	.h2 {
-		font-size: 4rem;
-		text-transform: uppercase;
-		font-weight: 900;
-		letter-spacing: 3px;
-		width: fit-content;
 		color: white;
-		text-align: center;
 	}
 
 	.label {
@@ -71,7 +65,7 @@
 		.label {
 			font-size: 1.5rem;
 		}
-        
+
 		.container-about {
 			flex-direction: column-reverse;
 
@@ -82,6 +76,139 @@
 			.right {
 				width: 100%;
 				margin-bottom: 3rem;
+			}
+		}
+	}
+}
+
+.eligibility {
+	background-image: url(../../images/can-i-bg.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5rem 0;
+
+	.h2 {
+		color: #0085ff;
+
+		span {
+			color: #ffb100;
+		}
+	}
+
+	.requirements {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		padding: 1rem 3rem;
+
+		.requirement {
+			padding: 5rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+
+			.h3 {
+				text-align: center;
+				font-size: 2.5rem;
+				color: #0085ff;
+				font-weight: 700;
+			}
+			img {
+				width: 100%;
+				margin-bottom: 2rem;
+			}
+
+			&:last-child {
+				img {
+					width: 145%;
+				}
+			}
+		}
+
+		@media only screen and (max-width: 800px) {
+			grid-template-columns: repeat(2, 1fr);
+			padding: 5rem;
+			grid-column-gap: 5rem;
+
+			.requirement {
+				padding: 4rem;
+				.h3 {
+					font-size: 3rem;
+				}
+			}
+		}
+
+		@media only screen and (max-width: 600px) {
+			grid-template-columns: 1fr;
+
+			.requirement {
+				.h3 {
+					font-size: 4rem;
+				}
+
+				img {
+					width: 70%;
+					margin-bottom: 2rem;
+				}
+
+				&:last-child {
+					img {
+						width: 105%;
+					}
+				}
+			}
+		}
+	}
+}
+
+.benefits {
+	background-image: url(../../images/benefits-bg.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3rem 0;
+
+	.h2 {
+		color: white;
+		background-color: #0085ff;
+		padding: 0 2rem;
+		margin: 2rem 0;
+	}
+
+	.owl-carousel {
+		.benefit {
+			padding: 5rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+
+			img {
+				width: 90%;
+			}
+
+			.h3 {
+				margin-top: 2rem;
+				font-size: 2.5rem;
+				color: white;
+				font-weight: 700;
+				text-align: center;
+				background-color: #0085ff;
+				padding: 0 2rem;
+			}
+
+			@media only screen and (max-width: 600px) {
+				img {
+					width: 65%;
+				}
+
+				.h3 {
+					font-size: 3rem;
+				}
 			}
 		}
 	}
