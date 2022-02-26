@@ -442,3 +442,39 @@
 		padding: 25rem 10rem 8rem 10rem;
 	}
 }
+
+.faq {
+	display: flex;
+	background-image: url(../../images/faq-bg.png);
+	background-size: cover;
+	padding: 3rem;
+	align-items: center;
+
+	img {
+		width: 50%;
+	}
+
+	.content {
+		margin-left: 4rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		.h2 {
+			color: #0085ff;
+			margin-bottom: 5rem;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		padding: 5rem 3rem;
+		flex-direction: column;
+
+		img {
+			margin-bottom: 5rem;
+			width: 70%;
+			transform: translateX(1rem);
+		}
+	}
+}
