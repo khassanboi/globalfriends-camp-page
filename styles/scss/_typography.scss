@@ -30,6 +30,14 @@
 			color: white;
 		}
 	}
+
+	&-blue {
+		background-color: #0085ff;
+
+		&:hover {
+			background-color: #ffb100;
+		}
+	}
 }
 
 .h2 {

@@ -361,8 +361,15 @@
 		img.small {
 			width: 60%;
 			border-radius: 50%;
+			border: 1.5rem solid #0085ff;
 			display: inline-block;
 			margin: 5rem 0;
+		}
+
+		.name {
+			.h3 {
+				color: #ffb100 !important;
+			}
 		}
 
 		.p {
