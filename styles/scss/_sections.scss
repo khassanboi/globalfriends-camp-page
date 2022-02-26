@@ -83,7 +83,9 @@
 
 .eligibility {
 	background-image: url(../../images/can-i-bg.png);
-	background-size: cover;
+	background-size: 105% auto;
+	background-position: center;
+	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
