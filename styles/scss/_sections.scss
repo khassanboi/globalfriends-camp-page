@@ -165,7 +165,8 @@
 	}
 }
 
-.benefits {
+.benefits,
+.cities {
 	background-image: url(../../images/benefits-bg.png);
 	background-size: cover;
 	display: flex;
@@ -182,7 +183,8 @@
 	}
 
 	.owl-carousel {
-		.benefit {
+		.benefit,
+		.city {
 			padding: 5rem;
 			display: flex;
 			flex-direction: column;
@@ -284,7 +286,7 @@
 }
 
 .consultation {
-	max-height: 100vh;
+	height: 100vh;
 	background-image: url(../../images/consultation-bg.png);
 	background-size: cover;
 	display: flex;
@@ -364,6 +366,42 @@
 	@media only screen and (max-width: 500px) {
 		.h2 {
 			font-size: 3rem;
+		}
+	}
+}
+
+.cities {
+	background-image: url(../../images/cities-bg.png);
+
+
+	.owl-carousel {
+		.city {
+			padding: 5rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+
+			img {
+				width: 100%;
+			}
+
+			.h3 {
+				margin-top: 1rem;
+				font-size: 3rem;
+				font-weight: 900;
+				padding: 0.5rem 2rem;
+				color: #0085ff;
+				background-color: white;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+			}
+
+			@media only screen and (max-width: 600px) {
+				.h3 {
+					font-size: 3rem;
+				}
+			}
 		}
 	}
 }
