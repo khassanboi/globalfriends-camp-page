@@ -286,14 +286,21 @@
 }
 
 .consultation {
-	height: 100vh;
+	min-height: 80rem;
+	max-height: 100vh;
+	width: 100%;
 	background-image: url(../../images/consultation-bg.png);
 	background-size: cover;
 	display: flex;
+	position: relative;
+	overflow: hidden;
+	padding-left: 50rem;
 
 	img.big {
-		height: 100%;
-		width: auto;
+		width: 25%;
+		position: absolute;
+		bottom: -0.5rem;
+		left: 20rem;
 	}
 
 	img.small {
@@ -335,7 +342,7 @@
 			font-size: 2rem;
 			font-weight: 700;
 			text-align: center;
-			padding: 5rem;
+			padding: 5rem 20rem;
 		}
 
 		.btn:hover {
@@ -343,8 +350,8 @@
 		}
 	}
 
-	@media only screen and (max-width: 850px) {
-		height: fit-content;
+	@media only screen and (max-width: 700px) {
+		background-image: url(../../images/consultation-bgsm.png);
 		padding: 3rem 0;
 
 		img.big {
@@ -360,6 +367,7 @@
 
 		.p {
 			margin: 2rem 0;
+			padding: 5rem !important;
 		}
 	}
 
@@ -372,7 +380,6 @@
 
 .cities {
 	background-image: url(../../images/cities-bg.png);
-
 
 	.owl-carousel {
 		.city {
@@ -403,5 +410,35 @@
 				}
 			}
 		}
+	}
+}
+
+.register {
+	background-image: url(../../images/register-bg.png);
+	background-size: cover;
+	background-position: top;
+	padding: 20rem;
+	padding-bottom: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	.h2 {
+		color: white;
+
+		&.main {
+			background-color: #ffb100;
+			padding: 0.5rem 5rem;
+		}
+
+		&.sub {
+			text-transform: capitalize;
+			margin: 5rem;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		padding: 25rem 10rem 8rem 10rem;
 	}
 }
