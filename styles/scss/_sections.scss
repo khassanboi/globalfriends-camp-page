@@ -269,16 +269,27 @@
 			grid-template-columns: 1fr;
 			grid-row-gap: 2rem;
 			.reason {
+				padding: 2rem 3rem;
+
 				.h3 {
 					font-size: 3rem;
+					font-weight: 900;
 				}
 
 				img {
-					width: 60%;
+					width: 80%;
+					margin-bottom: 2.5rem;
 				}
 
 				.p {
 					font-size: 2rem;
+					font-weight: 700;
+				}
+
+				&:first-child {
+					img {
+						width: 50%;
+					}
 				}
 			}
 		}
