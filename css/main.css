@@ -744,4 +744,9 @@ body {
   width: 3rem;
   margin-right: 1rem;
   transition: all 0.2s;
+}
+@media only screen and (max-width: 500px) {
+  .social-media {
+    padding: 5rem;
+  }
 }/*# sourceMappingURL=main.css.map */
