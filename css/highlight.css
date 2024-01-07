@@ -3,7 +3,6 @@
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
-
 pre {
   overflow-y: hidden;
   margin-bottom: 2rem;
@@ -11,7 +10,7 @@ pre {
 }
 
 .hljs {
-  display: block; 
+  display: block;
   color: #333;
   background: #f8f8f8;
   padding: 2rem;
@@ -24,7 +23,7 @@ pre {
 .diff .hljs-header,
 .hljs-javadoc {
   color: #B9B9B9;
-  font-style: italic
+  font-style: italic;
 }
 
 .hljs-keyword,
@@ -36,7 +35,7 @@ pre {
 .hljs-request,
 .hljs-status {
   color: #333;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .hljs-number,
@@ -49,7 +48,7 @@ pre {
 .hljs-tag .hljs-value,
 .hljs-phpdoc,
 .tex .hljs-formula {
-  color: #bd240d
+  color: #bd240d;
 }
 
 .hljs-title,
@@ -57,14 +56,14 @@ pre {
 .coffeescript .hljs-params,
 .scss .hljs-preprocessor {
   color: #900;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .javascript .hljs-title,
 .lisp .hljs-title,
 .clojure .hljs-title,
 .hljs-subst {
-  font-weight: normal
+  font-weight: normal;
 }
 
 .hljs-class .hljs-title,
@@ -72,7 +71,7 @@ pre {
 .vhdl .hljs-literal,
 .tex .hljs-command {
   color: #458;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .hljs-tag,
@@ -80,17 +79,17 @@ pre {
 .hljs-rules .hljs-property,
 .django .hljs-tag .hljs-keyword {
   color: #000080;
-  font-weight: normal
+  font-weight: normal;
 }
 
 .hljs-attribute,
 .hljs-variable,
 .lisp .hljs-body {
-  color: #008080
+  color: #008080;
 }
 
 .hljs-regexp {
-  color: #009926
+  color: #009926;
 }
 
 .hljs-symbol,
@@ -98,13 +97,13 @@ pre {
 .lisp .hljs-keyword,
 .tex .hljs-special,
 .hljs-prompt {
-  color: #333333
+  color: #333333;
 }
 
 .hljs-built_in,
 .lisp .hljs-title,
 .clojure .hljs-built_in {
-  color: #0086b3
+  color: #0086b3;
 }
 
 .hljs-preprocessor,
@@ -114,21 +113,21 @@ pre {
 .hljs-shebang,
 .hljs-cdata {
   color: #999;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .hljs-deletion {
-  background: #fdd
+  background: #fdd;
 }
 
 .hljs-addition {
-  background: #dfd
+  background: #dfd;
 }
 
 .diff .hljs-change {
-  background: #0086b3
+  background: #0086b3;
 }
 
 .hljs-chunk {
-  color: #aaa
-}
+  color: #aaa;
+}/*# sourceMappingURL=highlight.css.map */
